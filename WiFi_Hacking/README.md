@@ -1,4 +1,4 @@
-<h1>Hak5 Gear and Low Cost Alternatives</h1>
+<h1>WiFi Hacking with the WiFi Pineapple and Alfa Network Adapter</h1>
 
 <h2>Description</h2>
 Here I'm focused on WiFi hacking using the WiFi Pineapple from Hak5 and an Alfa Network adapter as a low cost alternative.
