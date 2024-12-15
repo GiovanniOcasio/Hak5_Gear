@@ -1,15 +1,12 @@
 <h1>Hak5 Plugins</h1>
 
 <h2>Description</h2>
-Hak5 is an industry leader in hacking tools, they developed tools that are used by hackers around the world and that are featured on shows like Mr. Robot and Silicon Valley. This repository will contain my setup and experience using these tools as I broaden my horizons with them. 
-<br />
+Here I focus on using Hak5 Plugins and Low Cost Alternatives.<br />
 
 
 <h2>Languages and Utilities Used</h2>
  
-- <b>Wifi Pineapple</b>
-- <b>Alfa Network Adapter</b>
-- <b>USB Rubber</b>
+- <b>USB Rubber Ducky</b>
 - <b>DuckyScript</b>
 - <b>Raspberry Pi Pico</b>
 - <b>Pico Ducky Script</b>
@@ -18,7 +15,7 @@ Hak5 is an industry leader in hacking tools, they developed tools that are used 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
-- <b>Ubuntu Server</b>
+- <b>Kali Linux</b>
 
 
 <!--
