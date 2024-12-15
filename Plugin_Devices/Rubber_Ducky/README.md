@@ -15,7 +15,7 @@ In order for Ducky Script to execute it must be encoded. You can encode the duck
 <p align="center">
   <img src="./imgs/encoder.png"/>
 </p>
-<b>Step 4: Execute the Attack</b>
+<b>Step 4: Execute the Attack</b><br/>
 Now the USB Rubber Ducky is ready for your attack. Note: The USB Rubber Ducky execute commands relatively quick so be generous with your DELAY commands to ensure your code executes properly.
 
 
