@@ -28,7 +28,7 @@ In the root directory of the CircuitPy we need the following files from the <a h
 <p align="center">
   <img src="./imgs/additional_files.png"/>
 </p>
-<b>Step 6: Edit Payloady</b><br/>
+<b>Step 6: Edit Payload</b><br/>
 Last part of the setup involves creating our Ducky Script payload. Unlike the USB Rubber Ducky we do not need to encode the payload, we just need to modify the payload.dd file
 <p align="center">
   <img src="./imgs/payload.png"/>
