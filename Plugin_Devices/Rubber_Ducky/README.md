@@ -1,7 +1,7 @@
 <h1>Hak5 Plugins</h1>
 
 <h2>Description</h2>
-Here we'll configure the USB Rubber Ducky to disable Windows Defender and make an HTTP request for a reverse shell script.<br />
+Here we'll configure the USB Rubber Ducky to disable Windows Defender and make an HTTP request for a reverse shell script. View my demo here --><a href="https://youtu.be/Lwp7VJKKu5w?si=COM60IkqX5ZO7TK9">Demo Video</a><--<br />
 
 <b>Step 1: Payload Development</b><br/>
 For the USB Rubber Ducky there are several preconfigured payload that can perform singular task. They can be found <a href="https://github.com/hak5/usbrubberducky-payloads/tree/master/payloads">here</a>. 
