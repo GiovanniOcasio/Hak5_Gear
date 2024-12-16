@@ -1,25 +1,38 @@
 <h1>Hak5 Plugins</h1>
 
 <h2>Description</h2>
-Here we'll configure the Raspberry Pi Pico to act as a USB Rubber Ducky to disable Windows Defender and create a new Administrator user with Remote Management/Desktop privileges. View my demo here --><a href="">Demo Video</a><--<br />
+Here we'll configure the Raspberry Pi Pico to act as a USB Rubber Ducky to create a new Administrator user with Remote Management/Desktop privileges. View my demo here --><a href="">Demo Video</a><--<br />
 
 <b>Step 1: Configure the Pico</b><br/>
 First we need to download circuit python for the Raspberry Pi Pico from <a href="https://circuitpython.org/board/raspberry_pi_pico">here</a>. 
 <p align="center">
   <img src="./imgs/circuit_py.png"/>
 </p>
-<b>Step 2: Modify Code</b><br/>
-Like I said the code is premade so we need to alter it to feed our needs. In my case, I want the script to disable Windows Defender and give my Kali Machine a reverse shell. I've made the modifications and saved the code in this repository <a href="./Disable_AV_RevShell.txt">(HERE)</a><br/><br/>
-<b>Step 3: Encode Ducky Script</b><br/>
-In order for Ducky Script to execute it must be encoded. You can encode the ducky script here: https://payloadstudio.hak5.org/community/. After it is encoded you can download the inject.bin file and replace the default file that is stored on the Rubber Ducky:
+<b>Step 2: Move Circuit Python to the Pi</b><br/>
+Move the circuit python file you downloaded onto the Raspberry Pi Pico. This will convert the Raspberry Pi Pico to Circuit Python.
 <p align="center">
-  <img src="./imgs/encoder.png"/>
+  <img src="./imgs/circuit_pico.png"/>
 </p>
-<b>Step 4: Execute the Attack</b><br/>
-Now the USB Rubber Ducky is ready for your attack. Note: The USB Rubber Ducky execute commands relatively quick so be generous with your DELAY commands to ensure your code executes properly.
-
-
-
+<b>Step 3: Additional Required Libraries</b><br/>
+Next, download the libraries that will allow the Raspberry Pi Pico to act as an HID. Download <a href="https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/tag/20241214">here</a>. 
+<p align="center">
+  <img src="./imgs/libraries.png"/>
+</p>
+<b>Step 4: Copy Libraries and Files</b><br/>
+Now, we'll copy the adafruit_hid, asyncio, and adafruit_wsgi folders from the zip file we just downloaded and copy it to the CircuitPy's lib folder. We also need the adafruit_debouncer.mpy and adafruit_ticks.mpy files in the lib folder
+<p align="center">
+  <img src="./imgs/additional_libraries.png"/>
+</p>
+<b>Step 5: Copying Additional Filesy</b><br/>
+In the root directory of the CircuitPy we need the following files from the <a href="https://github.com/dbisu/pico-ducky/tree/main">pico-ducky</a> repo: boot.py, duckyinpython.py, code.py, webapp.py, and wsgiserver.py 
+<p align="center">
+  <img src="./imgs/additional_files.png"/>
+</p>
+<b>Step 6: Edit Payloady</b><br/>
+Last part of the setup involves creating our Ducky Script payload. Unlike the USB Rubber Ducky we do not need to encode the payload, we just need to modify the payload.dd file
+<p align="center">
+  <img src="./imgs/payload.png"/>
+</p>
 <h2>Languages and Utilities Used</h2>
  
 - <b>USB Rubber Ducky</b>
