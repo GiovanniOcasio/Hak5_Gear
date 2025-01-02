@@ -13,7 +13,7 @@ Next, we need to encode the payload.
 <p align="center">
   <img src="./imgs/encoder.png"/>
 </p>
-<b>Step 4: Store and Execute Attack</b><br/>
+<b>Step 3: Store and Execute Attack</b><br/>
 Now you need to store the inject.bin file to your USB rubber ducky. Once stored it's ready to execute an attack:
 
 
