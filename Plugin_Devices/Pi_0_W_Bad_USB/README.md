@@ -4,9 +4,9 @@
 Here we'll configure the Raspberry Pi Zero WH to act as a USB Rubber Ducky to grant a reverse shell. View my demo here --><a href="">Demo Video</a><--<br />
 
 <b>Step 1: Configure the Pico</b><br/>
-First we need to download circuit python for the Raspberry Pi Pico from <a href="https://circuitpython.org/board/raspberry_pi_pico">here</a>. 
+First, we need to download the image for the P4wnP1-A.L.O.A <a href="https://github.com/RoganDawes/P4wnP1_aloa/releases/tag/v0.1.1-beta">here</a>. 
 <p align="center">
-  <img src="./imgs/circuit_py.png"/>
+  <img src="./imgs/p4wn_pi.png"/>
 </p>
 <b>Step 2: Move Circuit Python to the Pi</b><br/>
 Move the circuit python file you downloaded onto the Raspberry Pi Pico. This will convert the Raspberry Pi Pico to Circuit Python.
