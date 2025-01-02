@@ -1,7 +1,7 @@
 <h1>Hak5 Plugins</h1>
 
 <h2>Description</h2>
-Here we'll configure the Raspberry Pi Pico to act as a USB Rubber Ducky to create a new Administrator user with Remote Management/Desktop privileges. View my demo here --><a href="">Demo Video</a><--<br />
+Here we'll configure the Raspberry Pi Zero WH to act as a USB Rubber Ducky to grant a reverse shell. View my demo here --><a href="">Demo Video</a><--<br />
 
 <b>Step 1: Configure the Pico</b><br/>
 First we need to download circuit python for the Raspberry Pi Pico from <a href="https://circuitpython.org/board/raspberry_pi_pico">here</a>. 
