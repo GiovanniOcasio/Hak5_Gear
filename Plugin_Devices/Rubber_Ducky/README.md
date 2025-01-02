@@ -8,13 +8,13 @@ For the USB Rubber Ducky there are several preconfigured payload that can perfor
 <p align="center">
   <img src="./imgs/ducky_script_home.png"/>
 </p>
-<b>Step 2: Image SD</b><br/>
-Next, we need to image the SD card. Preferrably with the Raspberry Pi Imager<br/><br/>
-<b>Step 3: Connect to the P4wn_Pi Network</b><br/>
-Once, connected to a device the P4wn Pi A.L.O.A will create it's own Wifi network that you can connect to. Once connected you can navigate to the GUI on http://172.24.0.1:8000:
+<br />
+<b>Step 2: Encode the Payload</b><br/>
+Next, we need to encode the payload.
 <p align="center">
-  <img src="./imgs/gui.png"/>
+  <img src="./imgs/encoder.png"/>
 </p>
+<br />
 <b>Step 4: Execute the Attack</b><br/>
 Now the you can input your custom HID script to execute your attack:
 <p align="center">
