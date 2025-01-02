@@ -8,18 +8,13 @@ For the USB Rubber Ducky there are several preconfigured payload that can perfor
 <p align="center">
   <img src="./imgs/ducky_script_home.png"/>
 </p>
-<br />
 <b>Step 2: Encode the Payload</b><br/>
 Next, we need to encode the payload.
 <p align="center">
   <img src="./imgs/encoder.png"/>
 </p>
-<br />
-<b>Step 4: Execute the Attack</b><br/>
-Now the you can input your custom HID script to execute your attack:
-<p align="center">
-  <img src="./imgs/attack.png"/>
-</p>
+<b>Step 4: Store and Execute Attack</b><br/>
+Now you need to store the inject.bin file to your USB rubber ducky. Once stored it's ready to execute an attack:
 
 
 <h2>Languages and Utilities Used</h2>
