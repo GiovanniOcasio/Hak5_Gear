@@ -8,7 +8,7 @@ First, we need to download the image for the P4wnP1-A.L.O.A <a href="https://git
 <p align="center">
   <img src="./imgs/p4wn_pi.png"/>
 </p>
-<b>Step 2: Move Circuit Python to the Pi</b><br/>
+<b>Step 2: Image the </b><br/>
 Move the circuit python file you downloaded onto the Raspberry Pi Pico. This will convert the Raspberry Pi Pico to Circuit Python.
 <p align="center">
   <img src="./imgs/circuit_pico.png"/>
